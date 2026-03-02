@@ -1,0 +1,9 @@
+Category,All Firms (N=5888),US SBU (N=1032),UK DMP (N=1972),DE BOP-F (N=2282),AUS BOSS (N=602)
+Any AI Tech,69,78,71,65,59
+Other,27,34,35,20,13
+Data processing using ML,28,37,33,21,22
+Visual content creation,29,33,29,30,20
+Text generation using LLMs,41,54,33,46,30
+Image processing using ML,20,27,25,15,12
+Robotics,9,13,14,4,7
+Autonomous vehicles,3,5,3,3,7

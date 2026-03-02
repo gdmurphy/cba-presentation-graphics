@@ -1,0 +1,6 @@
+Category,All Firms (N=5813),US SBU (N=988),UK DMP (N=1972),DE BOP-F (N=2251),AUS BOSS (N=602)
+Large negative >5%,0,0,0,0,0
+Small negative <5%,1,1,1,0,3
+No impact,89,91,89,91,79
+Small positive <5%,8,7,8,6,14
+Large positive >5%,2,1,2,2,3
