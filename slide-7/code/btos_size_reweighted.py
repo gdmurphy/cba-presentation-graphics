@@ -10,8 +10,8 @@ Outputs:
   - ai_adoption_reweighted.png — chart with original and reweighted lines
 
 Usage:
-  cd /Users/candaan/Desktop/slide_7/data
-  python3 btos_reweighted.py
+  cd /Users/candaan/Desktop/slide_7/code
+  python3 btos_size_reweighted.py
 """
 
 import openpyxl
@@ -28,7 +28,7 @@ import os
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 BTOS_FILE = os.path.join(DATA_DIR, 'Employment Size Class.xlsx')
 SUSB_FILE = os.path.join(DATA_DIR, 'us_state_naics_detailedsizes_2022.xlsx')
-OUTPUT_FILE = os.path.join(DATA_DIR, 'ai_adoption_reweighted.png')
+OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'results', 'ai_adoption_reweighted.png')
 
 EMPSIZE_LABELS = {
     'A': '1-4',
